@@ -174,7 +174,7 @@ typedef struct
 	.layout = VK_NULL_HANDLE, \
 	.pl = VK_NULL_HANDLE, \
 	.flags = 0, \
-	.cullMode = VK_CULL_MODE_BACK_BIT, \
+	.cullMode = VK_CULL_MODE_NONE, \
 	.topology = VK_PRIMITIVE_TOPOLOGY_TRIANGLE_LIST, \
 	.blendOpts = { \
 		.blendEnable = VK_FALSE, \
